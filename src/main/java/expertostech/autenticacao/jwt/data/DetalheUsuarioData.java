@@ -8,6 +8,7 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Optional;
 
+@SuppressWarnings("serial")
 public class DetalheUsuarioData implements UserDetails {
 
     private final Optional<UsuarioModel> usuario;
